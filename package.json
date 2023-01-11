@@ -14,8 +14,10 @@
     "bootstrap": "^4.6.2",
     "jquerry": "^0.0.1-security",
     "popper.js": "^1.16.1",
+    "vee-validate": "^4.7.3",
     "vue": "^3.2.45",
-    "vue-router": "^4.1.6"
+    "vue-router": "^4.1.6",
+    "yup": "^0.32.11"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.1.4",

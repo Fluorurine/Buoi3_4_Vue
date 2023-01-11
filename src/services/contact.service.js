@@ -15,9 +15,9 @@ ContactService.get = async (id) => {
   return (await api.get(`/${id}`)).data;
 };
 ContactService.update = async (id, data) => {
-  return (await api.put(`/${id}`, data)).data;
+  return (await api.post(`/${id}`, data)).data;
 };
-ContactService.get = async (id) => {
+ContactService.delete = async (id) => {
   return (await api.delete(`/${id}`)).data;
 };
 export default ContactService;
